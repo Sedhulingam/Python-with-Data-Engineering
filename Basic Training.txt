@@ -163,5 +163,110 @@ like s.display() here s is object of a class
 	it will only consume memory when it executes
 ==============================================================
 
+Git Testing
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git config --global user.name
+Sedhulingam
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git config --global user.email
+sedhulingam123@gmail.com
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git config --list --show-origin
+file:C:/Program Files/Git/etc/gitconfig diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig init.defaultbranch=master
+file:C:/Users/XED1COB/.gitconfig        user.name=Sedhulingam
+file:C:/Users/XED1COB/.gitconfig        user.email=sedhulingam123@gmail.com
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=false
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        core.symlinks=false
+file:.git/config        core.ignorecase=true
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Basic Training.txt
+        Git Commands.txt
+        Task1.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>cat "Basic Training.txt"
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>touch "Basic Training.txt"
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>notepad "Basic Training.txt"
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git add --all
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Basic Training.txt
+        new file:   Git Commands.txt
+        new file:   Task1.py
+
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git commit -m "Testing Purpose"
+[master (root-commit) a01d966] Testing Purpose
+ 3 files changed, 214 insertions(+)
+ create mode 100644 Basic Training.txt
+ create mode 100644 Git Commands.txt
+ create mode 100644 Task1.py
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git branch list
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git branch --list
+  list
+* master
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git checkout -b first-branch
+Switched to a new branch 'first-branch'
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git branch --list
+* first-branch
+  list
+  master
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git branch -d list
+Deleted branch list (was a01d966).
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git status
+On branch first-branch
+nothing to commit, working tree clean
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>git branch --list
+* first-branch
+  master
+
+C:\Users\XED1COB\Documents\Python with data Engineering Internship>
 
 
