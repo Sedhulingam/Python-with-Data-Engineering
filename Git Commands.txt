@@ -1,0 +1,35 @@
+Git Commands:
+
+Basic Understanding:
+
+Git is an version control system which monitors whatever changes we are done on code (normally on local repo) unless you push on public repo like github it will stay on local repo itself you can identify what branches,tags are available and can view those datas
+
+Commands
+1. To start the git to monitor a folder:	git init
+
+<Hints>:   After git init:
+Git creates a default branch for you.
+In recent Git versions, the default branch is called main (earlier it was master).
+</Hints>
+
+2. To start the folder to be added on git: 	git add <filename> or git add --all (This is called staging)
+3. After staging you should save it in git:	git commit -m "Message here what change you made on this commit"
+4. To create a branch	: 			git branch branch_name    (without quotes)
+5. To shift to that branch 		:	git checkout branch_name
+6. You can create a branch if not created
+   and can shift to that branch directly
+   by this command			:	git checkout -b branch_name
+7. See normally bugs/fixed is done by branch
+   so developers create a branch to do that
+8. But Tag is a successfull version and can
+   work perfectly example take your main branch
+   say it works perfectly and another new add
+   feature came, so you mark that as tag and 
+   after that you made change on that and 
+   create a new branch to push those changes
+   and push to main branch
+9. You can configure you git name globally
+   and locally always do global		:	git config --user.name and git config --user.email
+10. To check the status of the git	: 	git status (Will tell what changes new made and havent commited)
+11. To create a tag on that repo	: 	git tag tag_name (without quotes)
+You cannot commit change on the tag as it deteremined like a good fixed quote with a version say v1 like that 

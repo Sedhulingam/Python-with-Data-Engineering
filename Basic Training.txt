@@ -1,0 +1,167 @@
+1. flowchart
+2. Algorithm
+3. UML
+4. git
+5. Python programming (Important for Data engineering)
+
+About python
+1. Open source
+2. Easy to learn compared to other lang
+3. Application created using core python
+4. Web application using python (flask,django framework) - full stack
+	flask is used for light application
+	django is hevay/difficult
+5. Testing using Python
+6. Automation using python
+7. Data science : Supervised & unsupervised learning
+8. Data engineering - pull data from different sources , transformation & load in a location called ETL
+			Informatica - on premises
+			Snowflake - but work on cloude
+			place into storage place - transformation - sql,pyspark,python
+
+			
+9. spark : Execution framework to process huge amount of data [Tera/Hexa/penta databytes]
+10. pyspark : python api for spark
+11. spark is written using scala
+
+1. Pyspark used to pull big data from spark which is connected to big data server
+2. java
+3. scala
+4. R
+5. SQL
+
+more than 3000 packages - library
+
+SQL and python : 80% job is over (Every developer should know and strong in this)
+
+============================================================================================================
+
+1. Flowcahrt
+
+	Describe process using flow of symbols  	
+	Oval - start/stop
+	Parallelogram - read/write
+	rectangle - processing
+	diamond - condition 
+
+====================================================================
+2. Algorithm
+
+step1 : start
+Step2 : read two values a,b
+step3 : print c
+step 4 : end
+===================================================================
+
+Programming: 
+
+1. online python compiler
+
+data type:
+	int
+	float
+	string
+	bool
+We have 200 questions from PCAP Certification from udemy
+
+---------------------------------------------------------------------------------------------------------------------
+Afternoon Session
+
+1. Conditional Statements
+	if statement
+	eval statement
+ 	a = eval(input("Enter a input"))
+        print(type(a)) so this eval identify the datatype whatever input it takes
+
+2. File Handling Sample program
+
+
+
+f= open("stud.txt","w")
+for i in range(3):
+    name = input("Enter the name\t")
+    M = input("Enter Mark\t")
+    f.write(name+" "+M)
+    f.write("\n")
+f.close()
+
+f1 = open("stud.txt","r")
+
+
+# n,m = f1.read().split(" ")
+# m1 = int(m)
+# if(m1>=50):
+#     check = "Pass"
+# else:
+#     check = "Fail"
+# print("Name","\t","Mark","\t","Pass/Fail")
+# print(n,"\t",m,"\t",check)
+
+print("\n")
+print("Name","\t","Mark","\t","Pass/Fail")
+for i in f1:
+    n,m = i.split(" ")
+    m = int(m)
+    if(m>=50):
+        check = "Pass"
+    else:
+        check = "Fail"
+    
+    print(n,"\t",m,"\t",check)
+    
+============================================================    
+List:
+
+1. ALl elements must be enclised in []
+2. elements can be hetrogenous. Each element is of different datatype
+3. elements are ordered by its index
+4. elements can be accessed from left to right like 0,1,2 etc
+5. elements can be aceessed from right to left like -1,-2,-3
+6. elements can be modified [ Mutable]
+
+
+==========================================================
+
+slicing
+nmae= "Bosch Hyderabad"
+x[start:end:increment]
+
+=================================================================
+
+Program to find the frequency of letters in a string
+
+from Collections import Counter
+a = "doss"
+print(Counter(a))
+
+It will print the frequency of the letters
+
+===============================================================
+
+Lambda function
+
+fruits = ["apple","orange"]
+xfruits = filter(lamda x : if x==5, fruits)
+print(xfruits)
+
+==============================================================
+Function and Method
+
+Function can be used independently
+whereas method is also a function but it is used only with objects
+like s.display() here s is object of a class
+
+
+===============================================================
+1. builtin function
+2. user defined function
+	it consume memory whether that part of defined function is executed or not
+3. lamda function
+	light function
+	anonymous functin
+	no return statement
+	it will only consume memory when it executes
+==============================================================
+
+
+
