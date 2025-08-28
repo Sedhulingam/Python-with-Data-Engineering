@@ -270,3 +270,12 @@ C:\Users\XED1COB\Documents\Python with data Engineering Internship>git branch --
 C:\Users\XED1COB\Documents\Python with data Engineering Internship>
 
 
+============================================================================================
+28/8/25
+
+1. Iterator: object iterates over the elements(list,tuple,seq,dic)
+	it has both __iter--() and __next__() #control of the iterator we using this 
+2. Generator : manual creation of iterator and it uses yield to return and has seperate function 
+
+
+
