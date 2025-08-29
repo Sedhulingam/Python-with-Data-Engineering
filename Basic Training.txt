@@ -271,11 +271,23 @@ C:\Users\XED1COB\Documents\Python with data Engineering Internship>
 
 
 ============================================================================================
-28/8/25
+28/8/25 (Video available in Day3 Screen Presso)
 
 1. Iterator: object iterates over the elements(list,tuple,seq,dic)
 	it has both __iter--() and __next__() #control of the iterator we using this 
 2. Generator : manual creation of iterator and it uses yield to return and has seperate function 
+3. Closure function: the function object gets inner function addresss and then the arguments passed will be used for inner function 
 
+4. Access modifier
+Private = Has two underscores on attributes and methods
+Protected = Has one underscore on attributes an methods
+Public = has none 
+
+5. Packages and Modules
+ Module - Any python program with extension .py called module 
+	Module contains methods,classes and variables
+
+ Package - It is a collection of related modules from math import sqrt
+library - It is a colection of related function eg: #include <math.h>
 
 
