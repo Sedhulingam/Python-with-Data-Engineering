@@ -289,28 +289,5 @@ Public = has none
 
  Package - It is a collection of related modules from math import sqrt
 library - It is a colection of related function eg: #include <math.h>
-===========================================================================================
-
-29.08.25
-
-1. Github: How to push local repo to global repo using github
-2. Linear Search, Binary search
-3. Bubble sort , Insertion sort, Selection sort, Merge sort, Quick sort
-4. Recursion
-5. stack and queue using list,class,linkedlist
-
-Stack
-push: add a new element
-isEmpty : check stack is empty
-peek : return top element of the stack 
-pop: delete the last element and return the value
-
-File operation
-
-f.read() - reads all the sentences in the file
-f.readline() - read only one line at a time
-f.read(5) - reads 5 bytes of letters from the file
-
-6. Decorator -  A function takes function as an input and returns another function
 
 
