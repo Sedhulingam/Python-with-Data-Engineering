@@ -1,84 +1,85 @@
-## Tasks
+# Navigate to Programs\ folder (To see the Task & Program files)
+# Tasks
 
-# Task1
+## Task1
 write the  python code to find  the second max value for the list (29.8.25)
 
-# Task2
+## Task2
 Python code to check  the string is palindrome or not (29.8.25)
 
-## Programs
+# Programs
 
-# Program1
+## Program1
 Write a program to swap two numbers without using a third variable.
 
-# Program2
+## Program2
 Write a function to check if a number is even or odd.
 
-# Program3
+## Program3
 Write a program to find the factorial of a number.
 
-# Program4
+## Program4
 Write a function to reverse a string.
 
-# Program5
+## Program5
 Write a program to count vowels and consonants in a string.
 
-# Program6
+## Program6
 Write a program to check if a string is a palindrome.
 
-# Program7
+## Program7
 Write a program to print the Fibonacci series up to n terms.
 
-# Program8
+## Program8
 Write a program to find the largest and smallest number in a list.
 
-# Program9
+## Program9
 Write a program to remove duplicates from a list.
 
-# Program10
+## Program10
 Write a program to sort a list without using built-in sort().
 
-# Program11
+## Program11
 Write a program to count the frequency of each element in a list.
 
-# Program12
+## Program12
 Write a program to merge two dictionaries.
 
-# Program13
+## Program13
 Write a function to find the second largest number in a list.
 
-# Program14
+## Program14
 Write a function that accepts **kwargs and returns the sum of values.
 
-# Program15
+## Program15
 Write a program to find the common elements between two lists.
 
-# Program16
+## Program16
 Write a program to find all prime numbers in a given range.
 
-# Program17
+## Program17
 Write a program to check if two strings are anagrams.
 
-# Program18
+## Program18
 Write a program to implement a simple calculator (using +, -, *, /).
 
-# Program19
+## Program19
 Write a program to read command-line arguments using sys.argv.
 
-# Program20
+## Program20
 Write a program to count the number of words in a text file.
 
-# Program21
+## Program21
 Write a program to implement binary search.
 
-# Program22
+## Program22
 Write a program to implement bubble sort.
 
-# Program23
+## Program23
 Write a program to rotate a list by k positions.
 
-# Program24
+## Program24
 Write a program to generate a dictionary where keys are numbers (1–10) and values are their squares.
 
-# Program25
+## Program25
 Write a program to find the longest word in a given sentence.
