@@ -290,4 +290,16 @@ Public = has none
  Package - It is a collection of related modules from math import sqrt
 library - It is a colection of related function eg: #include <math.h>
 
+===========================================================================================
+1.9.25
+
+1. Tree : Binary tree
+
+		1
+	2		3 
+4	5	6
+
+2. Graphs
+3. Hash
+ hash table, hash map, hash set
 
