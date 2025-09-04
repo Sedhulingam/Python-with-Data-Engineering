@@ -128,6 +128,6 @@ You are required to implement basic data structures from scratch using Python.
 - `get(key)` → Retrieve value by key
 - `remove(key)` → Delete a key-value pair
 
-🔁 **Collision Handling**: Use **chaining** (list of lists) for handling hash collisions.
+**Collision Handling**: Use **chaining** (list of lists) for handling hash collisions.
 
 ---
