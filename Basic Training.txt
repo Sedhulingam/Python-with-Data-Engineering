@@ -303,3 +303,10 @@ library - It is a colection of related function eg: #include <math.h>
 3. Hash
  hash table, hash map, hash set
 
+===============================================================
+3.9.25
+
+Work on Udemy questions Python
+
+1. def func(a, *args, **kwargs):    print(a, args, kwargs) func(2, 1, 5, x=4, y=3)   # print 2 (1, 5) {'x': 4, 'y': 3}
+
