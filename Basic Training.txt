@@ -310,3 +310,22 @@ Work on Udemy questions Python
 
 1. def func(a, *args, **kwargs):    print(a, args, kwargs) func(2, 1, 5, x=4, y=3)   # print 2 (1, 5) {'x': 4, 'y': 3}
 
+==========================================================================================
+
+| Technique           | Task                        | Main Idea                               | Strengths                                     |
+| ------------------- | --------------------------- | --------------------------------------- | --------------------------------------------- |
+| Linear Regression   | Regression                  | Fit a line                              | Simple, interpretable                         |
+| Logistic Regression | Classification              | Probabilistic binary classifier         | Fast, works well with linearly separable data |
+| Decision Trees      | Classification & Regression | Tree-based splits                       | Easy to interpret                             |
+| Random Forest       | Classification & Regression | Ensemble of trees                       | Accurate, less overfitting                    |
+| SVM                 | Classification              | Maximize margin between classes         | Effective in high-dimensional spaces          |
+| k-NN                | Classification & Regression | Predict from neighbors                  | Simple, no training phase                     |
+| Naive Bayes         | Classification              | Probabilistic with feature independence | Fast, works well for text data                |
+| Gradient Boosting   | Classification & Regression | Sequential learning of trees            | High accuracy, flexible 
+                      |
+=================================================================================================
+
+9.9.25
+1. Linear Regression 
+2. Synergy - combine two results to improve the results efficiency
+
