@@ -4,5 +4,6 @@ def rotateLeft(d, arr):
     return arr[d:] + arr[:d]
 d = int(input("Enter the number of rotations you want:"))
 arr = [1, 2, 3, 4, 5]
+print("Before Rotation: \n",arr)
 rotated = rotateLeft(d, arr)
 print("Final List: \n",rotated)  
