@@ -329,3 +329,11 @@ Work on Udemy questions Python
 1. Linear Regression 
 2. Synergy - combine two results to improve the results efficiency
 
+===================================================================================================================
+12.9.25
+
+1. MySQL
+2. UML 
+3. cascading in dbms
+4. cte
+
